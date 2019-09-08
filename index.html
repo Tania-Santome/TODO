@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <div class="insert">
+                <form action="#">
+                    <input type="text" id="tituloTarea" placeholder="introduce una tarea">
+                    <select id="prioridad">
+                        <option value="">Selecciona una prioridad</option>
+                        <option value="urgente">Urgente</option>
+                        <option value="diaria">Diaria</option>
+                        <option value="mensual">Mensual</option>
+                    </select>
+                    <input type="submit" value="GUARDAR" id="guardar">
+                </form>
+                <p id="mensaje"></p>
+            </div>
+
+            <div class="filter">
+                <select id="selectprioridad">
+                    <option value="">Selecciona una prioridad</option>
+                    <option value="urgente">Urgente</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="mensual">Mensual</option>
+                </select>
+                <input type="text" placeholder="Tarea a buscar" id="search">
+            </div>
+        </header>
+        <main>
+            <section class="notareas" id="notareas">
+                <article>
+                    <h2>NO HAY TAREAS</h2>
+                </article>
+            </section>
+            <section class="tareas">
+
+                <!-- <article class="urgente" data-id="1">
+                    <h2>Titulo de la tarea 1</h2>
+                    <a href="#" title="eliminar">ELIMINAR</a>
+                </article>
+
+                <article class="diaria">
+                    <h2>Titulo de la tarea 2</h2>
+                    <a href="#" title="eliminar">ELIMINAR</a>
+                </article>
+
+                <article class="mensual">
+                    <h2>Titulo de la tarea 3</h2>
+                    <a href="#" title="eliminar">ELIMINAR</a>
+                </article> -->
+
+
+            </section>
+        </main>
+        <footer>
+            <p>To Do Tania</p>
+        </footer>
+    </div>
+
+    <script src="js/modelo.js"></script>
+    <script src="js/eventos.js"></script>
+    <script src="js/logica.js"></script>
+</body>
+
+</html>

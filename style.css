@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    font-size: 1em;
+}
+
+#wrapper {
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+header .insert {
+    padding: 20px;
+    background-color:rgb(148, 140, 143);
+    border-top: 4px solid black;
+}
+
+header .filter {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+main article {
+    height: 60px;
+    border-bottom: 2px solid black;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    background-color: rgb(148, 140, 143);
+}
+
+main .urgente {
+    background-color:#FF8200;
+}
+
+main .diaria {
+    background-color:  #FFC100;
+}
+
+main .mensual {
+    background-color: #FFEAAE;
+}
+
+main .tareas article > a {
+    background-color: #FF0000;
+    display: inline-block;
+    padding: 21px;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 1s;
+}
+
+main .tareas article > a:hover {
+    width: 125px;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+#mensaje {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+main .notareas {
+    display: none;
+}
